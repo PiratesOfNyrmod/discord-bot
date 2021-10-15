@@ -53,7 +53,7 @@ client.on('interactionCreate', async interaction => {
 */
 client.on("error", (e) => console.error(`[ERROR] [${dateFormat(new Date(), "yyyy-mm-dd h:MM:ss")}] ${e}`));
 client.on("warn", (e) => console.warn(`[WARNING] [${dateFormat(new Date(), "yyyy-mm-dd h:MM:ss")}] ${e}`));
-client.on("debug", (e) => console.warn(`[DEBUG] [${dateFormat(new Date(), "yyyy-mm-dd h:MM:ss")}] ${e}`));
+client.on("debug", (e) => console.info(`[DEBUG] [${dateFormat(new Date(), "yyyy-mm-dd h:MM:ss")}] ${e}`));
 
 /*
 |--------------------------------------------------------------------------
